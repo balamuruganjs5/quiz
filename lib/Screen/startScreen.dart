@@ -25,7 +25,7 @@ class StartScreen extends StatelessWidget {
             height: 40,
           ),
           const Text(
-            'Improve ur skills!',
+            'Train your brain and raise your IQ',
             style: TextStyle(
               color: Colors.white,
               fontSize: 24,
@@ -38,6 +38,7 @@ class StartScreen extends StatelessWidget {
           OutlinedButton.icon(
             onPressed: startQuiz,
             style: OutlinedButton.styleFrom(
+              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 16),
               backgroundColor: Colors.white,
             ),
             label: const Text('Start Quiz'),
